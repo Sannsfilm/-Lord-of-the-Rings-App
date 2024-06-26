@@ -5,7 +5,7 @@ import Head from "next/head";
 
 export default function VolumeOneDetailPage() {
   const currentVolume = volumes.find(
-    ({ slug }) => slug === "the-fellowship-of-the-ring"
+    ({ slug }) => slug === "the-return-of-the-king"
   );
 
   return (
@@ -29,10 +29,10 @@ export default function VolumeOneDetailPage() {
           ))}
         </ul>
         <Image
-          src="/images/the-fellowship-of-the-ring.png" // was ist hier das fehler???
+          src="/images/the-return-of-the-king.png" // was ist hier das fehler???
           height={300}
           width={200}
-          alt="The volume cover of the fellowship of the ring"
+          alt="The volume cover of the return of the king"
         />
       </main>
     </>

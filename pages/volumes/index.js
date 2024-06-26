@@ -1,4 +1,4 @@
-import { introduction } from "@/resources-1/lib/data";
+import { introduction } from "@/lib/data";
 import Link from "next/link";
 
 export default function VolumesPafe() {
