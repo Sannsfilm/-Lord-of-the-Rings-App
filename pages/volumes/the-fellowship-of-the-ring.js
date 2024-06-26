@@ -33,7 +33,7 @@ export default function VolumeOneDetailPage() {
           ))}
         </ul>
         <Image
-          src="/images/the-fellowship-of-the-ring.png" // was ist hier das fehler?
+          src="/images/the-fellowship-of-the-ring.png" // was ist hier das fehler???
           height={300}
           width={200}
           alt="The volume cover of the fellowship of the ring"
